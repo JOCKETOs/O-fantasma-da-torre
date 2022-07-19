@@ -99,10 +99,12 @@ function createObstacles(){
     climber.lifetime = 720;
     invisibleBlock.lifetime = 720;
 
+    invisibleBlock.visible = false;
+
     doorsGroup.add(door);
     climbersGroup.add(climber);
     invisibleBlockGroup.add(invisibleBlock);
-    invisibleBlock.debug = false
+    invisibleBlock.debug = false;
   }
   
 
