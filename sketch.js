@@ -102,7 +102,7 @@ function createObstacles(){
     doorsGroup.add(door);
     climbersGroup.add(climber);
     invisibleBlockGroup.add(invisibleBlock);
-    invisibleBlock.debug = true
+    invisibleBlock.debug = false
   }
   
 
